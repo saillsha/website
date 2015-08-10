@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^app\.quotail\.co$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.app\.quotail\.co$
+RewriteRule ^/?$ "http\:\/\/45\.55\.168\.132" [R=301,L]
+
