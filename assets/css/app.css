@@ -203,8 +203,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 20px;
-  text-transform: uppercase;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: sans-serif;, Arial;
 }
 
 .title-v1 h1:after, 

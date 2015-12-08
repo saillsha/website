@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Quotail</title>
+    <title>Quotail | Options scanning and analysis</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -55,11 +55,32 @@
             white-space: nowrap;
             font-family: 'Open Sans', Arial, sans-serif;
         }
-        .main {
-            top: 40%;
+        .registration-btn{
+            background-color: #44BB37;
+            color:white;
+            font-weight:bold;
+            width:280px;
+            margin:10px 0 5px 0;
         }
-        .main span {
-            padding-left: 175px;
+        .registration-btn:hover{
+            color: white;
+            padding-right: 30px;
+            -webkit-transition: padding: 1s;
+            transition: padding: 1s;
+        }
+        .mission-header {
+            text-align: left;
+            font-size: 24px;
+            line-height: 50px;
+            color: #555;
+            text-transform: uppercase;
+        }
+        .mission-description{
+            margin-top: 0;;
+            padding-left: 70px;
+        }
+        .main {
+            top: 20%;
         }
         .sub {
             top: 55%;
@@ -69,10 +90,21 @@
             right: 0;
             top: 10%;
         }
+        .top-tagline{
+            padding: 10px 10px 6px 40px;
+            background-color:rgba(255, 255, 255, 0.7);
+        }
+        .bottom-tagline{
+            padding: 6px 10px 10px 60px;
+            position: relative;
+            bottom: 3px;
+            background-color:rgba(255, 255, 255, 0.7);
+        }
         .text {
             color:#141A1F; 
+            font-size: 24px;
+            padding: 10px 10px 10px 30px;
             background-color:rgba(255, 255, 255, 0.7);
-            padding:10px 10px 10px 30px;
         }
         @media (max-width: 800px) {
             .mobile-hero-img {
@@ -227,7 +259,9 @@
                               
                             </li>
                             <!-- end of blog -->
-                            
+                            <li>
+                                <a href="http://quotail.co/wiki/Main_Page" style="font-weight: bold;">Documentation</a>
+                            </li>
                             <!-- login -->
                              <li>
                                 <a href="http://app.quotail.co/#/login" class="" data-toggle=""style="font-weight:bold" target="_blank">
@@ -251,18 +285,19 @@
                 <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1100" data-title="Slide 1">
 
                     <div class="mobile-hero-banner main">
-                        <span class="text"><em>Follow the money.</em></span>
+                        <span class="top-tagline"><em>The most advanced options trade</em></span><br>
+                        <span class="bottom-tagline"><em>scanning and analytics platform</em></span>
                     </div>
 
                     <div class="mobile-hero-banner sub">
-                        <span class="text">Learn about our products...</span>
+                        <span class="text">Learn more about our products:</span>
                         <div class="btn-buy hidden-xs">
                             <a style="color:white;font-weight:bold;width:280px;margin:10px 0 5px 0;" href="app" class="btn btn-info btn-u-lg"><i class="fa fa-desktop">
-                            </i> Trading App - Beta&nbsp</a>
+                            </i> Web-based Trading App</a>
                         </div>
                         <div class="btn-buy visible-xs" style="margin-top:5px">
                             <a style="color:white;font-size:10px;width:280px;margin-bottom:5px;" href="app" class="btn btn-info"><i class="fa fa-desktop">
-                            </i> Trading App - Beta&nbsp</a>
+                            </i> Web-based Trading App</a>
                         </div>
                         <div class="btn-buy hidden-xs">
                             <a style="color:white;font-weight:bold;width:280px;" href="data" class="btn btn-info btn-u-lg"><i class="fa fa-database">
@@ -276,7 +311,7 @@
 
                     <div class="mobile-hero-banner right">
                         <div class="btn-buy hidden-xs">
-                            <a style="color:white;font-weight:bold;width:280px;margin:10px 0 5px 0;" href="http://app.quotail.co/#/register" class="btn btn-info btn-u-lg"><i class="fa fa-arrow-left"></i>
+                            <a href="http://app.quotail.co/#/register" class="btn btn-u-lg  registration-btn"><i class="fa fa-arrow-left"></i>
                                 <span>Sign-up for FREE now!</span>
                             </a>
                         </div>
@@ -285,67 +320,6 @@
                     <section id="big-video">
                         <div class="video" data-src="assets/img/qtAppleDevices3.png" data-video="assets/video/demo2" data-placeholder="assets/video/demo2.png"></div>
                     </section>
-
-                    <!-- MAIN IMAGE white background-->
-                    <!-- <div class="tp-caption revolution-ch1b sft start mobile-hero-banner"
-                        data-x="0"
-                        data-hoffset="0"
-                        data-y="120"
-                        data-speed="1500"
-                        data-start="400"
-                        data-easing="Back.easeInOut"
-                        data-endeasing="Power1.easeIn"                        
-                        data-endspeed="300"
-                        style="color:white;font-style:normal;font-size:32px;font-weight:300;">
-                        <span style="color:#141A1F;background-color:rgba(255, 255, 255, 0.7);padding:10px;">Ride the coattails of smart money.</span>
-                    </div> -->
-
-                    <!-- LAYER  This is the layer for the apple image-->
-                    <!-- <div class="tp-caption revolution-ch1 sft mobile-hero-img"
-                        data-x="450"
-                        data-hoffset="0"
-                        data-y="-100"
-                        data-speed="1400"
-                        data-start="1500"
-                        data-easing="Power4.easeOut"
-                        data-endspeed="300"
-                        data-endeasing="Power1.easeIn"
-                        data-captionhidden="off"
-                        style="z-index: 6">
-
-                        <span><img src="assets/img/qtAppleDevices3.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></span>                    
-                    </div> -->
-
-                     <!-- LAYER -->
-                    <!-- <div class="tp-caption revolution-ch1 sft  mobile-hero-sub"
-                        data-x="0"
-                        data-hoffset="0"
-                        data-y="200"
-                        data-speed="1500"
-                        data-start="400"
-                        data-easing="Back.easeInOut"
-                        data-endeasing="Power1.easeIn"                        
-                        data-endspeed="300"
-                        style="color:white;font-size:22px;font-weight:300;">
-                        <span style="color:#141A1F;background-color:rgba(255, 255, 255, 0.5);padding:10px;">Learn about our products...</span>
-                        <div class="btn-buy hidden-xs">
-                            <a style="color:white;font-weight:bold" href="app" class="btn btn-info btn-u-lg"><i class="fa fa-desktop">
-                            </i> Trading App - Beta&nbsp</a>
-                        </div>
-                        <div class="btn-buy visible-xs" style="margin-top:5px">
-                            <a style="color:white;font-size:10px" href="app" class="btn btn-info"><i class="fa fa-desktop">
-                            </i> Trading App - Beta&nbsp</a>
-                        </div>
-                        <div class="btn-buy hidden-xs">
-                            <a style="color:white;font-weight:bold" href="data" class="btn btn-info btn-u-lg"><i class="fa fa-database">
-                            </i> API & Data Services</a>
-                        </div>
-                        <div class="btn-buy visible-xs" style="margin-top:5px">
-                            <a style="color:white;font-size:10px" href="data" class="btn btn-info"><i class="fa fa-database">
-                            </i> API & Data Services</a>
-                        </div>
-                    </div> -->
-                     <!-- LAYER -->
                 </li>
                 <!-- END SLIDE -->
 
@@ -359,38 +333,40 @@
     <div class="service-info margin-bottom-60">
         <div class="container">
              <div class="title-v1">
-                <h1 style="font-size: 40px;font-style:normal;">Mission</h1>
-                <h3>Empower you to swim with the sharks. </br> We use equity <strong>options market data</strong> to help you discover valuable investment insights.</h3>
+                <h1 style="font-size: 40px;font-style:normal;">Real-Time Options Insights</h1>
+                <h3>Generate trade ideas faster with Quotail. We deliver a personalized stream of interesting options trades based on your strategies and allow traders to intuitively analyze historical options order flow.</h3>
             </div>
-
-
+            <h2 style="border-bottom: 1px solid #049AAC; color: #444">Our Mission:</h2>
             <div class="row">
                 <div>
                     <div class="margin-bottom-30">
                         <div class="info-description" style="display: inline-block;padding: 10px;">
+                        <div>
                             <i class="service-info-icon rounded-x fa fa-user-plus"></i>
-                            <div style="display: inline-block;">
-                                <h3 class="title-v3-lg text-uppercase" style="text-align: left;"><strong>Leveling the Playing Field</strong></h3>
-                                <h4>Bringing the resources and intelligence of large institutions to everyone, swim like the big fish.</h4>
-                            </div>
+                            <h3 class="mission-header">Level the Playing Field</h3>
+                        </div>
+                        <h4 class="mission-description">Professional traders and market makers consider this information to be invaluable. Get access to institutional level data and analytics so you can swim with the big fish.</h4>
                         </div>
                     </div>
                     <div class="margin-bottom-30">
                         <div class="info-description" style="display: inline-block;padding: 10px;">
-                            <i class="service-info-icon rounded-x fa fa-database"></i>
-                            <div style="display: inline-block;">
-                                <h3 class="title-v3-lg text-uppercase" style="text-align: left;"><strong>Serious About Data</strong></h3>
-                                <h4>Our platform enables you to find and track options activity using real-time and historical analysis tools.</h4>
+                            <div>
+                                <i class="service-info-icon rounded-x fa fa-database"></i>
+                                <h3 class="mission-header">Quickly Uncover actionable ideas</h3>
                             </div>
+                            <h4 class="mission-description">
+                                Options are a fast-paced game. Reading the time and sales can be laborious, but we with our suite of discovery tools, you'll find the right ideas as soon as they happen.
+                            </h4>
                         </div>
                     </div>
                     <div class="margin-bottom-30">
                         <div class="info-description" style="display: inline-block;padding: 10px;">
-                            <i class="service-info-icon rounded-x fa fa-line-chart"></i>
-                            <div style="display: inline-block;">
-                                <h3 class="title-v3-lg text-uppercase" style="text-align: left;"><strong>Minimizing Risk</strong></h3>
-                                <h4>Information is power. Invest with confidence by testing to see how strategies have fared in the past.</h4>
+                            <div>
+                                <i class="service-info-icon rounded-x fa fa-line-chart"></i>
+                                <h3 class="mission-header">Monitor your portfolio</h3>
                             </div>
+                            <h4 class="mission-description">
+                            Knowing when to get out is just as important as knowing when to get in. Get alerts on order flow affecting your portfolio so you're not the last one holding when the music stops.</h4>
                         </div>
                     </div>   
                 </div>
@@ -417,9 +393,9 @@
                             <p style="font-size:14px">Full access to our web and mobile applications.</p>
                             <ul class="list-unstyled">
                                 <li>Run custom and preset scans</li>
-                                <li>Receive real-time alerts</li>
-                                <li>Generate trade ideas</li>
-                            </ul>                        
+                                <li>Visualize aggregate order flow</li>
+                                <li>Analyze historical options activity</li>
+                            </ul>
                         </div>
                     </div>
                 </a>
