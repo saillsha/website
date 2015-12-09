@@ -173,6 +173,8 @@ a:hover {
     padding: 12px;
     background-color: #efefef;
 }
+
+.full-width { width: 100%; }
 /*Service*/
 .service {
 	overflow: hidden; 

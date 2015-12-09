@@ -92,29 +92,26 @@
         }
         .top-tagline{
             padding: 10px 10px 6px 40px;
-            background-color:rgba(255, 255, 255, 0.7);
+            background-color:rgba(255, 255, 255, 0.8);
         }
         .bottom-tagline{
             padding: 6px 10px 10px 60px;
             position: relative;
-            bottom: 3px;
-            background-color:rgba(255, 255, 255, 0.7);
+            top: 4px;
+            background-color:rgba(255, 255, 255, 0.8);
         }
         .text {
             color:#141A1F; 
             font-size: 24px;
             padding: 10px 10px 10px 30px;
-            background-color:rgba(255, 255, 255, 0.7);
+            background-color:rgba(255, 255, 255, 0.8);
         }
-        @media (max-width: 800px) {
+        @media (max-width: 768px) {
+            .mission-header {
+                font-size: 20px;
+            }
             .mobile-hero-img {
                 opacity: 0.25 !important;
-            }
-            .mobile-hero-banner {
-                font-size: 32px !important;
-            }
-            .mobile-hero-sub {
-                font-size: 22px !important;
             }
             .sub {
                 font-size: 16px !important;
@@ -128,8 +125,18 @@
             .main span {
                 padding-left: 60px;
             }
+            .top-tagline {
+                font-size: 24px;
+            }
+            .bottom-tagline{
+                font-size: 24px;
+                top: -7px;
+            }
         }
         @media (max-width: 500px) {
+            .mission-header {
+                font-size: 18px;
+            }
             .mobile-hero-img {
                 opacity: 0.20 !important;
             }
@@ -143,11 +150,8 @@
             .main span {
                 padding-left: 30px;
             }
-            .text {
-                background: none;
-            }
             .sub {
-                top:30%;
+                top:50%;
                 font-size: 16px !important;
             }
             .sub a {
@@ -334,7 +338,7 @@
         <div class="container">
              <div class="title-v1">
                 <h1 style="font-size: 40px;font-style:normal;">Real-Time Options Insights</h1>
-                <h3>Generate trade ideas faster with Quotail. We deliver a personalized stream of interesting options trades based on your strategies and allow traders to intuitively analyze historical options order flow.</h3>
+                <h3>Generate trade ideas faster with Quotail. We deliver a personalized stream of interesting options trades based on your strategies and allow you to intuitively analyze historical options order flow.</h3>
             </div>
             <h2 style="border-bottom: 1px solid #049AAC; color: #444">Our Mission:</h2>
             <div class="row">
@@ -355,7 +359,7 @@
                                 <h3 class="mission-header">Quickly Uncover actionable ideas</h3>
                             </div>
                             <h4 class="mission-description">
-                                Options are a fast-paced game. Reading the time and sales can be laborious, but we with our suite of discovery tools, you'll find the right ideas as soon as they happen.
+                                Options are a fast-paced game. Reading the time and sales can be laborious, but we built our suite of discovery tools to help you find the right ideas as soon as they happen.
                             </h4>
                         </div>
                     </div>
