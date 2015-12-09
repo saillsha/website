@@ -107,6 +107,9 @@
             background-color:rgba(255, 255, 255, 0.8);
         }
         @media (max-width: 768px) {
+            .text{
+                font-size: 16px;
+            }
             .mission-header {
                 font-size: 20px;
             }
@@ -130,12 +133,31 @@
             }
             .bottom-tagline{
                 font-size: 24px;
-                top: -7px;
+                top: -6px;
+            }
+            .right {
+                bottom: 10%;
+            }
+            .service-info{
+                padding-top: 15px;
+            }
+            .registration-btn{
+                font-size: 16px;
+                padding: 10px;
+                text-align: center;
+                margin-bottom: 20px;
             }
         }
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
             .mission-header {
                 font-size: 18px;
+            }
+            .top-tagline {
+                font-size: 18px;
+            }
+            .bottom-tagline{
+                font-size: 18px;
+                top: 7px;
             }
             .mobile-hero-img {
                 opacity: 0.20 !important;
@@ -151,14 +173,7 @@
                 padding-left: 30px;
             }
             .sub {
-                top:50%;
-                font-size: 16px !important;
-            }
-            .sub a {
-                font-size: 13px !important;
-            }
-            .mobile-hero-sub {
-                font-size: 16px !important;
+                display: none;
             }
         }
     </style>
@@ -316,7 +331,7 @@
                     <div class="mobile-hero-banner right">
                         <div class="btn-buy hidden-xs">
                             <a href="http://app.quotail.co/#/register" class="btn btn-u-lg  registration-btn"><i class="fa fa-arrow-left"></i>
-                                <span>Sign-up for FREE now!</span>
+                                <span>Sign-up for free now!</span>
                             </a>
                         </div>
                     </div>
@@ -326,16 +341,19 @@
                     </section>
                 </li>
                 <!-- END SLIDE -->
-
-               
             </ul>
-            <div class="tp-bannertimer tp-bottom"></div>            
+            <div class="tp-bannertimer tp-bottom"></div>
         </div>
     </div>
     <!--=== End Slider ===-->
     <!--=== Vision and Mission Section  ===-->
     <div class="service-info margin-bottom-60">
         <div class="container">
+            <div class="visible-xs" style="text-align: center;">
+                <a href="http://app.quotail.co/#/register" class="btn btn-u-lg registration-btn">
+                    <span>Sign-up for free now!</span>
+                </a>
+            </div>
              <div class="title-v1">
                 <h1 style="font-size: 40px;font-style:normal;">Real-Time Options Insights</h1>
                 <h3>Generate trade ideas faster with Quotail. We deliver a personalized stream of interesting options trades based on your strategies and allow you to intuitively analyze historical options order flow.</h3>
@@ -356,7 +374,7 @@
                         <div class="info-description" style="display: inline-block;padding: 10px;">
                             <div>
                                 <i class="service-info-icon rounded-x fa fa-database"></i>
-                                <h3 class="mission-header">Quickly Uncover actionable ideas</h3>
+                                <h3 class="mission-header">Quickly Uncover Ideas</h3>
                             </div>
                             <h4 class="mission-description">
                                 Options are a fast-paced game. Reading the time and sales can be laborious, but we built our suite of discovery tools to help you find the right ideas as soon as they happen.
@@ -367,7 +385,7 @@
                         <div class="info-description" style="display: inline-block;padding: 10px;">
                             <div>
                                 <i class="service-info-icon rounded-x fa fa-line-chart"></i>
-                                <h3 class="mission-header">Monitor your portfolio</h3>
+                                <h3 class="mission-header">Monitor Your Portfolio</h3>
                             </div>
                             <h4 class="mission-description">
                             Knowing when to get out is just as important as knowing when to get in. Get alerts on order flow affecting your portfolio so you're not the last one holding when the music stops.</h4>
