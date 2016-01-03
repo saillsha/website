@@ -2131,6 +2131,21 @@ i.icon-bg-light-grey {
   margin-bottom: 20px;
 }
 
+.subscription-block{
+  padding: 0px 0px !important;
+}
+
+.subscription-header{
+    color: #ffffff;
+    position: relative;
+    bottom: 5px;
+    background-color: #00a4b5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
 .service-block p,
 .service-block h2 {
   color: #fff;
@@ -2138,6 +2153,13 @@ i.icon-bg-light-grey {
 
 .service-block h2 a:hover{
   text-decoration: none;
+}
+
+.mini-hr{
+  width:40px;
+  height:2px;
+  margin:10px auto;
+  background-color:#DEDEDE;
 }
 
 .service-block-light,
