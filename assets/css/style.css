@@ -54,6 +54,20 @@ a:hover {
    text-decoration: underline;
 }
 
+.registration-btn{
+	text-align:center;
+	padding:15px;
+	background-color:#09bb30;
+	color:white !important;
+	border-radius:3px;
+	border: 1px solid #09dd30;
+	text-decoration: none !important;
+	pointer: cursor;
+	display:block;
+	font-size:26px;
+	line-height:.8;
+}
+
 /* Tradier integration */
 #tradier{
   width: 100%;
