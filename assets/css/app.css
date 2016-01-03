@@ -2144,7 +2144,10 @@ i.icon-bg-light-grey {
     padding-bottom: 15px;
 }
 
-
+.subscription-description{
+  padding-left:10px;
+  padding-right:10px;
+}
 
 .service-block p,
 .service-block h2 {
