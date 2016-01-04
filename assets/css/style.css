@@ -109,6 +109,16 @@ a:hover {
 
 /*Main Styles
 ------------------------------------*/
+span.header-signup{
+	padding: 5px 10px;
+	background-color: #44BB37; 
+	color: white; 
+	font-weight: bold;
+	border-radius: 3px;
+}
+span.header-signup:hover{
+	background-color: #158309;
+}
 .sign-up-btn {
 	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
 	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;

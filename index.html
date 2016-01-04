@@ -55,14 +55,15 @@
             white-space: nowrap;
             font-family: 'Open Sans', Arial, sans-serif;
         }
-        .registration-btn{
+        .signup-btn{
             background-color: #44BB37;
             color:white;
             font-weight:bold;
             width:280px;
             margin:10px 0 5px 0;
+            border-radius: 0;
         }
-        .registration-btn:hover{
+        .signup-btn:hover{
             color: white;
             padding-right: 30px;
             -webkit-transition: padding: 1s;
@@ -141,7 +142,7 @@
             .service-info{
                 padding-top: 15px;
             }
-            .registration-btn{
+            .signup-btn{
                 font-size: 16px;
                 padding: 10px;
                 text-align: center;
@@ -222,83 +223,7 @@
 <div class="wrapper">
     <!--=== Header v3 ===-->    
     <div class="header-v3 header-sticky" style="background-color:#ededed;border-bottom:1px solid #ccc;">
-        <!-- Navbar -->
-        <div class="navbar navbar-default mega-menu" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">
-                        <img id="logo-header" src="assets/img/quotailLogoClearBackgroundSmall.v3.png" alt="Logo">
-                    </a>
-                </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse" >
-                    <div class="container">
-                        <ul class="nav navbar-nav">
-                            <li>
-                            <!-- Home -->
-                                <a href="/" class="" data-toggle="" style="font-weight:bold">
-                                Home
-                                 </a>
-                             </li>
-                            <!-- End Home -->
-
-                            <!-- Product -->                        
-                            <li class="dropdown">
-                                <a href="" class="" data-toggle="dropdown"style="font-weight:bold">
-                                    Product
-                                </a>
-                                <ul class="dropdown-menu">
-                                     <li >
-                                        <a href="app">Quotail Application</a>                           
-                                    </li>
-                                     <li>
-                                        <a href="data">API & Data Services</a>                           
-                                    </li>
-                                </ul>
-                        
-                            </li>
-                            <li>
-                                <a href="pricing" style="font-weight:bold">
-                                    Pricing 
-                                </a>
-                            </li>
-                            <!-- End product -->
-                            <li>
-                                <a href="contact" style="font-weight:bold">
-                                    Contact Us 
-                                </a>
-                            </li>
-
-                            <!-- Blog -->
-                            <li>
-                                <a href="http://blog.quotail.co/" target="_blank" class="" data-toggle=""style="font-weight:bold">
-                                    Blog
-                                </a>
-                              
-                            </li>
-                            <!-- end of blog -->
-                            <li>
-                                <a href="http://quotail.co/wiki/Main_Page" style="font-weight: bold;">Documentation</a>
-                            </li>
-                            <!-- login -->
-                             <li>
-                                <a href="http://app.quotail.co/#/login" class="" data-toggle=""style="font-weight:bold" target="_blank">
-                                    Log In
-                                </a>
-                              
-                            </li>
-                        </ul>
-                    </div><!--/end container-->
-                </div><!--/navbar-collapse-->
-            </div>    
-        </div>            
-        <!-- End Navbar -->
+        <div id="header"></div>
     </div>
     <!--=== End Header v3 ===-->
     <!--=== Slider ===-->
@@ -335,7 +260,7 @@
 
                     <div class="mobile-hero-banner right">
                         <div class="btn-buy hidden-xs">
-                            <a href="http://app.quotail.co/#/register" class="btn btn-u-lg  registration-btn"><i class="fa fa-arrow-left"></i>
+                            <a href="http://app.quotail.co/#/register" class="btn btn-u-lg  signup-btn"><i class="fa fa-arrow-left"></i>
                                 <span>Sign-up for free now!</span>
                             </a>
                         </div>
@@ -355,7 +280,7 @@
     <div class="service-info margin-bottom-60">
         <div class="container">
             <div class="visible-xs" style="text-align: center;">
-                <a href="http://app.quotail.co/#/register" class="btn btn-u-lg registration-btn">
+                <a href="http://app.quotail.co/#/register" class="btn btn-u-lg signup-btn">
                     <span>Sign-up for free now!</span>
                 </a>
             </div>
@@ -487,75 +412,7 @@
     </div><!--/container-->
     <!--=== End Owl Carousel v6 ===-->
 
-  <!--=== Footer Version 1 ===-->
-    <div class="footer-v1">
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <!-- About -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <a href="/"><img id="logo-footer" class="footer-logo" src="assets/img/quotailLogoClearBackgroundSmall.png" alt=""></a>
-                        <p>Interested in our product? Sign-up for the beta release.</p>
-                        <!--<button formtarget="page_registration.html" class="btn-u pull-left" type="submit">Sign Up</button>  -->
-                         <div class="btn-buy">
-                            <a style="color:white" href="http://app.quotail.co/#/register" class="btn-u"><i class="fa fa-pencil"></i> Sign-Up for FREE now!</a>
-                        </div>
-                    </div><!--/col-md-3-->
-
-                    <!-- End About -->
-
-                    <!-- Latest -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                       <!-- Social Links -->
-                        <div class="headline"><h2>Stay Connected</h2></div> 
-                        <ul class="social-icons">
-                            <li><a href="https://twitter.com/quotailCo" data-original-title="Twitter" class="social_twitter" target="_blank"></a></li>
-                            <li><a href="https://plus.google.com/115999130459141607537/posts" data-original-title="Goole Plus" class="social_googleplus" target="_blank"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCrbWUCOZhKq6olPtx7ZCJCg" data-original-title="Youtube" class="social_youtube" target="_blank"></a></li>
-                        </ul>
-                        <!-- End Social Links -->
-                    </div><!--/col-md-3-->  
-                    <!-- End Latest --> 
-                    
-                    <!-- Link List -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="headline"><h2>Useful Links</h2></div>
-                        <ul class="list-unstyled link-list">
-                            <li><a href="app">Product</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="pricing">Pricing</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="http://app.quotail.co/#/login" target="_blank">Log In</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="http://app.quotail.co/#/register">Sign Up</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="contact">Contact us</a><i class="fa fa-angle-right"></i></li>
-                        </ul>
-                    </div><!--/col-md-3-->
-                    <!-- End Link List -->                    
-
-                    <!-- Address -->
-                    <div class="col-md-3 map-img md-margin-bottom-40">
-                        <div class="headline"><h2>Contact Us</h2></div>                         
-                        <address class="md-margin-bottom-40">
-                            Phone: 301 375 0855 <br />
-                            Email: <a href="mailto:team@quotail.co" class="">team@quotail.co</a> </br>
-                        </br>
-                            <div class="btn-buy">
-                             <a style="color:white" href="contact" class="btn-u"><i class="fa fa-info-circle"></i> Contact Us</a>
-                            </div>
-                        </address>
-
-                    </div><!--/col-md-3-->
-                    <!-- End Address -->
-                </div>
-            </div> 
-        </div><!--/footer-->
-
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div> 
-        </div><!--/copyright-->
-    </div>
-    <!--=== End Footer Version 1 ===-->
+  <div id="footer"></div>
 </div><!--/wrapper-->
 
 <!-- JS Global Compulsory -->           
@@ -578,7 +435,7 @@
 <script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
 <script type="text/javascript" src="assets/js/plugins/revolution-slider.js"></script>
 <script type="text/javascript" src="assets/js/plugins/pace-loader.js"></script>
-
+<script type="text/javascript" src="assets/js/load_header_footer.js"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function() {
