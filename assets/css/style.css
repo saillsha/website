@@ -55,6 +55,7 @@ a:hover {
 }
 
 .registration-btn{
+	margin-top: 30px;
 	text-align:center;
 	padding:15px;
 	background-color:#09bb30;
@@ -66,6 +67,13 @@ a:hover {
 	display:block;
 	font-size:26px;
 	line-height:.8;
+}
+
+.promo-code{
+	color: white;
+	background-color: rgb(0, 164, 181);
+	padding: 4px;
+	border-radius: 3px;
 }
 
 /* Tradier integration */
@@ -90,6 +98,13 @@ a:hover {
   margin-left: auto !important;
   margin-right: auto !important;
   background: url(../img/patterns/15.png) repeat;
+}
+
+.pricing-bullets h4{
+	margin: 0;
+	color: #444;
+    line-height: normal;
+    font-weight: bold;
 }
 
 /*Main Styles

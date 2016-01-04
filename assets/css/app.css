@@ -2130,6 +2130,11 @@ i.icon-bg-light-grey {
 
 .subscription-block{
   padding: 0px 0px !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #eee;
 }
 
 .subscription-header{
